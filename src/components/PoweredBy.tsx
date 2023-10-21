@@ -2,12 +2,12 @@ export const PoweredBy: React.FC = () => {
   return (
     <div
       onClick={() => {
-        window.open("https://thirdweb.com?utm_source=embed", "_blank");
+        window.open("https://silo.gg/", "_blank");
       }}
       className="spacing-1 absolute bottom-4 right-4 flex cursor-pointer items-center"
     >
       <svg
-        xmlns="http://www.w3.org/2000/svg"
+        xmlns="https://media.discordapp.net/attachments/495385622354067468/1162518934407348244/Silo_Logo_02_Ring.png"
         width="32"
         height="20"
         viewBox="0 0 26 13"
