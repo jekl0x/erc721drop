@@ -449,7 +449,7 @@ export default function Home() {
                         toast({
                           title: "Successfully minted",
                           description:
-                            "Now activate your NFT <a href='https://rdfadmin-test.netlify.app/#/molochv3/0x5/0xee829e3abb60d205ed2ff41c9bcb8eeb61e6ada0/claim'>here</a>.",
+                            "Now activate your NFT",
                           duration: 50000,
                           className: "bg-green-500",
                         });
