@@ -446,13 +446,7 @@ export default function Home() {
                         });
                       }}
                       onSuccess={() => {
-                        toast({
-                          title: "Successfully minted",
-                          description:
-                            "Now activate your NFT",
-                          duration: 50000,
-                          className: "bg-green-500",
-                        });
+                        navigate('https://rdfadmin-test.netlify.app/#/molochv3/0x5/0xee829e3abb60d205ed2ff41c9bcb8eeb61e6ada0/claim')
                       }}
                     >
                       {buttonLoading ? (
