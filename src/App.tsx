@@ -18,7 +18,6 @@ import { useMemo, useState } from "react";
 import { HeadingImage } from "./components/HeadingImage";
 import { PoweredBy } from "./components/PoweredBy";
 import { useToast } from "./components/ui/use-toast";
-import { To, useNavigate } from 'react-router-dom';
 import { parseIneligibility } from "./utils/parseIneligibility";
 import {
   clientIdConst,
@@ -447,7 +446,13 @@ export default function Home() {
                         });
                       }}
                       onSuccess={() => {
-                        navigate('https://rdfadmin-test.netlify.app/#/molochv3/0x5/0xee829e3abb60d205ed2ff41c9bcb8eeb61e6ada0/claim')
+                        toast({
+                          title: "Successfully minted",
+                          description:
+                            "Now activate your NFT",
+                          duration: 50000,
+                          className: "bg-green-500",
+                        });
                       }}
                     >
                       {buttonLoading ? (
